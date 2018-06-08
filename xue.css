@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caption {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.head {
+    height: 100vh;
+    background: #192314;
+    overflow: hidden;
+    position: relative;
+}
+
+.one {
+    width: 652px;
+    height: 488px;
+    background: url(beosound-shape.jpg);
+    background-size: 100% auto;
+    float: right;
+}
+
+.two {
+    width: 512px;
+    height: 208px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    color: #fff;
+}
+
+.description {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.title {
+    line-height: 39px;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    font-size: 30px;
+    letter-spacing: 3.75px;
+}
+
+.small-desc {
+    line-height: 21px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    width: 282px;
+    line-height: 21px;
+    background-color: rgba(250, 250, 250, 0.1);
+    color: #fff;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.banner {
+    height: 405px;
+    padding-bottom: 100px;
+    background: url(img-bg-1350.jpg);
+    background-size: 100% auto;
+    background-position: 0 -158px;
+}
+
+.product {
+    width: 705px;
+    height: 353px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.product-item {
+    float: left;
+    width: 235px;
+    height: 353px;
+    position: relative;
+
+}
+
+.product-item h4 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.top-menu {
+    width: 1024px;
+    height: 58px;
+    padding: 0 16px;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top-menu .left ,.top-menu .right {
+
+    width: 108px;
+    height: 58px;
+    color: #fff;
+    line-height: 58px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.center {
+    height: 100%;
+    width: 191px;
+    padding: 12px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.top-menu .left {
+    background: url(qwee.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+.top-menu .right {
+    background: url(fffff.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.leg {
+    height: 277px;
+    text-align: center;
+}
+
+.leg h6 {
+    margin: 80px 0 18px 0;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1.2px;
+    line-height: 21px;
+}
+
+.leg h2 {
+    margin: 15px 0 24px 0;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3.75px;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three {
+    width: 512px;
+    height: 512px;
+
+}
+
+.three:nth-child(1) {
+    background: url(beosound-shape.jpg);
+    background-size: 100% auto;
+}
+
+.three:nth-child(2) {
+    background: url(beovision-eclipse-frontpage-brass-smoked-oak-2.jpg);
+    background-size: 100% auto;
+}
+
+.three:nth-child(3) {
+    background: url(beolab-50-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.three:nth-child(4) {
+    background: url(beoplay-p6-categories-mobile-2.jpg);
+    background-size: 100% auto;
+}
+
+.three:nth-child(5) {
+    background: url(beosound-core-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.three:nth-child(6) {
+    background: url(beoplay-h9i-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.three h4 {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 15.75px;
+    color: #fff;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.story-list {
+    height: 358px;
+    width: 704px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.story {
+    width: 178px;
+    height: 176px;
+
+}
+
+.story:nth-child(3) {
+    width: 348px;
+
+}
+
+.story img {
+    width: 100%;
+}
+
+.story h5 {
+    margin: 30px 0 18px 0;
+    font-size: 12px;
+    line-height: 24px;
+
+    font-style: normal;
+    color: black;
+}
+
+.dec {
+    padding-right: 9px;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.info-box {
+    padding: 0 14px;
+    height: 509px;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+
+}
+
+.info-item {
+    padding-top: 80px;
+    height: 100%;
+    width: 498px;
+    text-align: center;
+}
+
+.info-item:nth-child(1) {
+    border-right: 1px solid #f2f2f2;
+}
+
+.info-item:nth-child(1) .icon {
+    background: #000 url(news.png) no-repeat center center;
+
+}
+
+.info-item:nth-child(2) .icon {
+    background: #000 url(location.png) no-repeat center center;
+}
+
+.info-item .icon {
+    height: 54px;
+    width: 54px;
+    border-radius: 100%;
+    margin: 0 auto 30px auto;
+}
+
+.info-item h5 {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 20px;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.info-item h6 {
+    width: 290px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #888;
+    margin: 0 auto 18px auto;
+
+}
+
+.info-item .button1 {
+    background: rgba(0, 0, 0, 0.09);
+    width: 200px;
+    height: 38px;
+    padding: 12px 35px;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto;
+}
+
+.info-item:nth-child(2) .button1 {
+    margin-top: 100px;
+}
+
+.info-item input {
+    display: block;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 6px 12px;
+    line-height: 17px;
+    height: 54px;
+    width: 396px;
+    margin: 12px auto 40px auto;
+}
+
+.footer {
+    height: 82px;
+    padding: 20px 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .left {
+    width: 350px;
+    height: 21px;
+    padding-left: 30px;
+    background: url(language.png) no-repeat left center;
+}
+.footer .left a{
+    color: black;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+.footer .right {
+    width: 540px;
+
+}
+.footer .right a{
+    display: block;
+    color: black;
+    margin-right: 16px;
+    font-size: 12px;
+    float: right;
+    text-decoration: none;
+    line-height: 18px;
+    font-weight: 400;
+}
